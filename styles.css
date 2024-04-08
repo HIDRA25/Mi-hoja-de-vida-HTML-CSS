@@ -1,0 +1,121 @@
+body {
+    background-image:url(mi-portafolio-web/imagenes/programacionimagen.jpeg) ;
+}
+main {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d0868dc;
+}
+header, div {
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 1px;
+    background-color: #eaeaea4d;
+    border-bottom: 2px solid white;
+}
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+h1, h2 {
+    color: #fffdfd;
+}
+.proyectos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(247, 4, 226), rgb(5, 252, 5));
+
+}
+h1 {
+    background-color: rgba(255, 0, 0, 0.637);
+    color: rgb(250, 248, 248);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 4px rgb(20, 20, 20);
+}
+h2{
+    background-color: rgba(255, 0, 0, 0.397);
+    border-bottom: 1px solid white;
+}
+
+div {
+    text-align: center;
+    margin: 10px 0;
+    padding: 0 20px;
+    color: white;
+}
+p{
+    margin: 10px;
+    color: white; 
+}
+img{
+    margin-left: 50px;
+}
+ul {
+    list-style-type: square;
+    padding: 0 40px;
+    color: white;
+}
+li{
+    color: white
+}
+table {
+    width: 30%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+th{
+    background-color: rgba(0, 0, 255, 0.308);
+}
+
+th, td {
+    padding: 10px 20px;
+    text-align: left;
+    color: white;
+}
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0055a4;
+}
+
